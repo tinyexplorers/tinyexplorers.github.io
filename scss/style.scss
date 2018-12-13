@@ -70,7 +70,7 @@ Chat
   @include center;
   width: 100%;
   height: calc(100% - 15px);
-  max-height: 500px;
+  max-height: 800px;
   z-index: 10;
   overflow: hidden;
   /*box-shadow: 0 5px 30px rgba(0, 0, 0, .2);*/
@@ -427,9 +427,9 @@ Bounce
 -moz-border-radius: 20px;
 border-radius: 20px;
     height: calc(100% - 60px)!important;
-  max-height:460px!important;
+  max-height:560px!important;
   min-height:220px!important;
-    width: 320px;
+    width: 90%;
   /*  transform: translateY(0);
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
