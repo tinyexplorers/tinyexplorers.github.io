@@ -53,7 +53,7 @@ $(window).on('keydown', function(e) {
 })
 
 var Fake = [
-  'Hi, there. I\'m teacher Adolf. What toy is it?',
+    '<video width="320" height="240" controls><source src="https://tinyexplorers.github.io/css/toy1.mp4" type="video/mp4">Your browser does not support the video tag.</video>',
   'The answer is BALL... Great job! What about this toy?',
   'How are you?',
   'Not too bad, thanks',
@@ -71,9 +71,8 @@ var Fake = [
 ]
 
 var FakeImg = [
-  '<div class="message"><figure class="messages"><img width="50%" src="https://media-public.canva.com/MABvDQ2pOt8/1/screen.svg" /></figure>',
-  '<div class="message"><figure class="messages"><img width="50%" src="https://media-public.canva.com/MACk1Spk9Lg/1/screen.svg" /></figure>' ,
-  '<div class="message"> <figure class="messages"><audio controls><source src="http://media.w3.org/2010/07/bunny/04-Death_Becomes_Fur.mp4" type="audio/mp4"/><source src="http://media.w3.org/2010/07/bunny/04-Death_Becomes_Fur.oga" type="audio/ogg; codecs=vorbis"/><p>Your user agent does not support the HTML5 Audio element.</p></audio> </figure>'
+  '<img width="50%" src="https://media-public.canva.com/MABvDQ2pOt8/1/screen.svg" />',
+  '<img width="50%" src="https://media-public.canva.com/MACk1Spk9Lg/1/screen.svg" />' 
 ]
 
 function fakeMessage() {
